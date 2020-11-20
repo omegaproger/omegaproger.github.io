@@ -13,6 +13,8 @@
 
 body{
 background-color: #0d0d0d;
+pointer-events: auto;
+animation: pointer 8.5s;
 
 }
 
@@ -186,7 +188,7 @@ animation: my4-a 1.5s ;
   	font-family: 'Balsamiq Sans', cursive;
   	font-size: 2vw;
   	transition: transition: 0.4s cubic-bezier(0,.47,.46,.79);
-  	animation: my-an 3s ;
+  	animation: my-an 2.8s ;
 }
 .zag1{
 margin-left: 15.5%;
@@ -342,6 +344,12 @@ margin-top:18%;
 	transform: rotate(16deg);
 	animation: ghostbast 14s infinite;
 }
+.bt2hob{
+	margin-left: 36.5%;
+	margin-top: 35.5%;
+	width: 10%;
+	height: 3%;
+}
 /*MAIN*/
 #Main{
 	 margin: 0 auto;
@@ -476,6 +484,10 @@ margin-top:18%;
    77%   { opacity: 1;margin-left: 63%;margin-top: 15%; }
     100% { opacity: 1; }
 }
+@keyframes pointer {
+    0%   { pointer-events:none; }
+    100% { pointer-events:auto; }
+}
 
 #SmallFace:hover{
 	
@@ -526,6 +538,7 @@ animation: my6-anim 1.5s ;
   	font-family: 'Balsamiq Sans', cursive;
   	font-size: 1vw;
   	animation: my-an 3s ;
+  	text-align: center;
 }
 #SmallTextZag{
 	color: white;
