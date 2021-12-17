@@ -1,0 +1,26 @@
+@keyframes hi {
+	0%{}
+	100%{}
+}
+@keyframes introBounce {
+	0%{margin-top: 0;}
+	50%{margin-top: 10px;}
+	100%{margin-top: 0px;}
+}
+
+@keyframes infoLite {
+	0%{opacity: 0;}
+	50%{opacity: 1;}
+	100%{opacity:0;}
+}
+@keyframes firework {
+	0%{opacity: 0;transform:scale(0) rotate(100deg);}
+	50%{opacity: 1;transform:scale(1) rotate(0deg);}
+	100%{opacity: 0;transform:scale(0) rotate(100deg);}
+}
+
+@keyframes smoke {
+	0%{opacity: 0;transform:rotate(0deg);bottom: 0px}
+	50%{opacity: 0.3;transform:rotate(15deg);bottom: 20px}
+	100%{opacity: 0;transform:rotate(45deg);bottom: 80px}
+}
